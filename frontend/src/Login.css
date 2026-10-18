@@ -1,0 +1,29 @@
+/* 3-Button Role Toggle */
+.role-toggle-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.role-btn.admin-role-btn.active {
+  background: linear-gradient(135deg, #ef4444, #f97316);
+  color: #fff;
+  border-color: #f97316;
+}
+
+.admin-badge-notice {
+  background: rgba(249, 115, 22, 0.12);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  color: #f97316;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.btn-admin-submit {
+  background: linear-gradient(135deg, #ef4444, #f97316) !important;
+  color: #fff !important;
+}
